@@ -1,8 +1,4 @@
-/* * {
-    background: url('../images/ZooPicture_tree.jpeg');
-    background-repeat: no-repeat;
-    background-size: auto;
-   } */
+
 
    body{
     background: url('../images/ZooPicture_tree.jpeg');
@@ -13,8 +9,61 @@
    
    background-attachment: fixed;
    
-   background-size: cover;
+   background-size:cover;
 
-   margin-top: 300px;
-   
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Staatliches', cursive;
+
    }
+
+
+
+ .nav-main-header {
+     font-size: 35px;
+     font-weight: bold;
+ }
+
+ .nav-main-span {
+     display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-mainbar {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+   .transparent{    
+    background-color: rgba(0,0,0,0.15);
+}
+
+.panel{
+    background-color: transparent;
+    border: 1px #222;
+    /* margin-top: 25px; */
+    /* margin-left: 100px; */
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.bar-spacing {
+   margin-left: 50px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bar-spacing-nav1 {
+    margin-left: 380px;
+}
+
+.nav_bar_text {
+    color: #9FA6B2;
+    text-shadow: #9FA6B2;
+}
