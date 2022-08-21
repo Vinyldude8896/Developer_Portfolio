@@ -82,14 +82,15 @@ font-size: 15px;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
-    margin-top: -10px;
+    margin-top: -15px;
     font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
 }
 
 .card-img-top {
     width:  100%;
     height: 30%;
-    height: 20vw; 
+    height: 19vw; 
     object-fit:scale-down;
     align-items: left;
 }
@@ -101,10 +102,21 @@ font-size: 15px;
     object-fit:cover;
 }
 
+.card-title {
+    font-size: 18px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
 .btn-info {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
-    margin-left: 15px;
+    margin-left: 13px;
+}
+
+.btn-primary {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
 }
 
 .btn-info-home {
