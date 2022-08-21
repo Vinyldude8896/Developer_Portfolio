@@ -44,4 +44,10 @@ router.get("/weather_dashboard", async (req, res) => {
     res.render("weather_dashboard", {
     });
 });
+
+router.get("/contact_me", async (req, res) => {
+
+    res.render("contact_me", {
+    });
+});
   module.exports = router;
