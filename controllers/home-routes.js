@@ -14,4 +14,16 @@ router.get("/", async (req, res) => {
     });
 });
 
+router.get("/projects", async (req, res) => {
+
+    res.render("projects", {
+    });
+});
+
+router.get("/employee_tracker", async (req, res) => {
+
+    res.render("employee_tracker", {
+    });
+});
+
   module.exports = router;
