@@ -116,6 +116,11 @@ contact-me-card {
     text-decoration: underline;
 }
 
+.card-link-contact-me{
+    font-size: 18px;
+    font-style: oblique;
+}
+
 .btn-info {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
