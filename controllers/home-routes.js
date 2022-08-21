@@ -7,4 +7,11 @@ router.get("/", async (req, res) => {
       });
   });
 
+
+  router.get("/about_me", async (req, res) => {
+
+    res.render("about_me", {
+    });
+});
+
   module.exports = router;
