@@ -84,7 +84,14 @@ font-size: 15px;
     margin-bottom: 10px; /* Added */
     margin-top: -15px;
     font-family: 'Roboto Mono', monospace;
+    /* border-radius: 5%; */
+    border: solid 3px darkseagreen; 
     font-size: 14px;
+    /* border-collapse: separate; */
+}
+
+.card:hover {
+    border: solid 4px aliceblue;
 }
 
 .card-img-top {
@@ -93,6 +100,7 @@ font-size: 15px;
     height: 19vw; 
     object-fit:scale-down;
     align-items: left;
+    border-radius: 10%;
 }
 
 contact-me-card {
@@ -140,4 +148,9 @@ contact-me-card {
 
 .card-background {
     background-color: #C0C0C0;;
+}
+
+.footer {
+ border: none;
+ font-size: 22px;
 }
