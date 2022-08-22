@@ -204,11 +204,13 @@ font-size: 15px;
 
     .card-projects {
         width: 20rem;
+        margin-bottom: 60px;
     }
 
     .card-projects-expand {
         width: 95%;
-        margin-top: 8px;
+        margin-top: 4px;
+    
     }
 
     .card {
@@ -221,10 +223,12 @@ font-size: 15px;
 
     .card-about-me {
         width: 75%;
+        margin-bottom: 60px;
     }
 
     .contact-me-card {
         width: 75%;
+        margin-bottom: 60px;
     }
 
     .card-holder {
@@ -235,11 +239,13 @@ font-size: 15px;
 
     .card-projects {
         width: 18rem;
+        margin-bottom: 60px;
     }
 
     .card-projects-expand {
         width: 95%;
         margin-top: 8px;
+        margin-bottom: 60px;
     }
 
     .card {
@@ -252,10 +258,12 @@ font-size: 15px;
 
     .card-about-me {
         width: 75%;
+        margin-bottom: 60px;
     }
 
     .contact-me-card {
         width: 75%;
+        margin-bottom: 60px;
     }
 
     .card-holder {
@@ -266,11 +274,13 @@ font-size: 15px;
 
     .card-projects {
         width: 18rem;
+        margin-bottom: 60px;
     }
 
     .card-projects-expand {
         width: 95%;
         margin-top: 8px;
+        margin-bottom: 60px;
     }
 
     .card {
