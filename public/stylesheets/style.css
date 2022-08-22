@@ -14,11 +14,13 @@
    font-family: 'Open Sans', sans-serif;
    font-family: 'Staatliches', cursive;
 
+   height: 100vh;
+
    }
 
    .hero {
        width:100VH;
-       
+
    }
 
 
