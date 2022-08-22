@@ -103,20 +103,44 @@ font-size: 15px;
     border-radius: 10%;
 }
 
-contact-me-card {
-    width:  100%;
-    height: 30%;
-    height: 20vw; 
-    object-fit:scale-down;
-    align-items: left;
+
+.card-about-me {
+    width: 55rem;
 }
+
+.card-projects {
+    width: 20rem;
+}
+
+.card-projects-expand {
+    width: 65rem;
+}
+
+.contact-me-card {
+    width:  55rem;
+    height: 35rem;
+    /* height: 20vw; 
+    object-fit:scale-down;
+    align-items: left; */
+}
+
+
+
+ /* .card-holder {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
 
 .card-img-projects {
     width:  100%;
     height: 50%;
     height: 20vw; 
     object-fit:cover;
-}
+} */
+
+
 
 .card-title {
     font-size: 18px;
@@ -153,4 +177,103 @@ contact-me-card {
 .footer {
  border: none;
  font-size: 22px;
+}
+
+.card-link {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* Media Query for Smaller Screens Style Properties */
+
+@media screen and (max-width:980px) {
+
+    .card-about-me {
+        width: 75%;
+    }
+
+    .contact-me-card {
+        width: 75%;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+
+    .card-projects {
+        width: 20rem;
+    }
+
+    .card-projects-expand {
+        width: 95%;
+        margin-top: 8px;
+    }
+
+    .card {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .card-about-me {
+        width: 75%;
+    }
+
+    .contact-me-card {
+        width: 75%;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+
+    .card-projects {
+        width: 18rem;
+    }
+
+    .card-projects-expand {
+        width: 95%;
+        margin-top: 8px;
+    }
+
+    .card {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .card-about-me {
+        width: 75%;
+    }
+
+    .contact-me-card {
+        width: 75%;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+
+    .card-projects {
+        width: 18rem;
+    }
+
+    .card-projects-expand {
+        width: 95%;
+        margin-top: 8px;
+    }
+
+    .card {
+        padding-bottom: 10px;
+    }
 }
