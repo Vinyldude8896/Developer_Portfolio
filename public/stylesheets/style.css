@@ -115,9 +115,17 @@ font-size: 15px;
 
 
 .card-about-me {
+    width: 65rem;
+    height: 36rem;
+    margin-top: -20px;
+}
+
+/* .card-about-me:hover {
     width: 60rem;
     height: 30rem;
-}
+    border: solid 4px aliceblue;
+} */
+
 
 .card-projects {
     width: 20rem;
