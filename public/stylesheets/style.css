@@ -31,7 +31,7 @@
 
  .nav-main-span {
      display: inline;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     margin-left: 20px;
 }
@@ -393,6 +393,10 @@ font-size: 15px;
             font-size: 20px;
             font-family: 'Staatliches';
             font-style: normal;
+    }
+
+    .nav-main-span {
+        font-size: 20px;
     }
 
     .footer {
